@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Photos Video</title>
+    <link rel="stylesheet" href="./photos.css" tyle="text/css">
+  </head>
+  <body>
+    <script src="./jquery-2.1.1.js"></script>
+    <script src="javascript.js"></script>
+    <div class="main">
+      <div class="photos">
+        <div class="first">
+          <img class="first" src="./photos/IMG_6260.jpg">
+        </div>
+        <div class="second">
+          <img class="second" src="./photos/IMG_6276.jpg">
+        </div>
+        <div class="third">
+          <img class="third" src="./photos/IMG_6289.jpg">
+        </div>
+        <div class="fourth">
+          <img class="fourth" src="./photos/IMG_6291.jpg">
+        </div>
+        <div class="fifth">
+          <img class="fifth" src="./photos/IMG_6294.jpg">
+        </div>
+      </div>
+    </div>
+    <script>
+      $(function() {
+        $(".main").alterPhotos();
+      });
+    </script>
+  </body>
+
+</html>

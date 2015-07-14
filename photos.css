@@ -1,0 +1,48 @@
+.photos {
+  width: 400px;
+  position: relative;
+  left: 50%;
+  top: 50px;
+  transform: translate(-50%);
+}
+
+.photos img {
+  height: 300px;
+}
+
+img.fourth, img.fifth {
+  display: none
+}
+
+img.second {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 320px;
+  top: -10px;
+  border: 1px solid black;
+  z-index: 2;
+}
+
+img.third {
+  position: absolute;
+  top: 0;
+  left: 54%;
+}
+
+div.modal-first {
+  height: 300px;
+  width: 200px;
+  position: absolute;
+  background: rgba(0,0,0, 0.7);
+}
+
+div.modal-third {
+  height: 300px;
+  width: 200px;
+  position: absolute;
+  top: 0;
+  left: 54%;
+  background: rgba(0,0,0,0.7);
+  z-index: 1
+}
